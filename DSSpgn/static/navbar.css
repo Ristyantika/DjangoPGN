@@ -1,0 +1,44 @@
+
+.bg-blue{
+    background-color: rgb(30, 154, 216);
+}
+.colorblue{
+    color: #355989;
+}
+.colorred{
+    color: #b63737;
+}
+.menu-bar{
+    background: #355989;
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.sub-menu-1{
+    display: none;
+    position: absolute;
+    background: rgb(0,0,100);
+    margin-top: 45px;
+    margin-left: 250px;
+}
+.sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.sub-menu-1 ul li:hover{
+    border-bottom: none;
+}
+.sub-menu-1 ul li a:hover{
+    color: #b2ff00;
+}
